@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>73b9b3c5-0cbc-4dc6-a3ca-6675a7f55f3f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GameDevTools.py</StartupFile>
+    <StartupFile>art\recolor.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="art\recolor.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AssetRenamer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GameDevTools.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="art\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
