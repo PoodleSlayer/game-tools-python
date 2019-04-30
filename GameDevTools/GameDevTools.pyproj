@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>73b9b3c5-0cbc-4dc6-a3ca-6675a7f55f3f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>art\recolor.py</StartupFile>
+    <StartupFile>art\palette.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="art\palette.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="art\recolor.py">
       <SubType>Code</SubType>
     </Compile>
